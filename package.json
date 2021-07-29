@@ -1,20 +1,19 @@
 {
   "name": "@igor-arkhipov/ico-convert",
-  "description": "Convert Image to ICO file format",
+  "description": "Convert Image to ICO file format (fork)",
   "version": "0.0.12",
   "author": {
-    "name": "fiahfy",
-    "email": "d.fiahfy@gmail.com",
-    "url": "https://fiahfy.github.io/"
+    "name": "igor-arkhipov",
+    "url": "https://igor-arkhipov.github.io/"
   },
   "bin": {
     "ico-convert": "dist/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/fiahfy/ico-convert/issues"
+    "url": "https://github.com/igor-arkhipov/ico-convert/issues"
   },
   "dependencies": {
-    "@igor-arkhipov/ico" : "git://github.com/igor-arkhipov/ico.git",
+    "@igor-arkhipov/ico": "^0.0.5",
     "meow": "^9.0.0",
     "sharp": "^0.27.1"
   },
@@ -36,7 +35,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/fiahfy/ico-convert",
+  "homepage": "https://github.com/igor-arkhipov/ico-convert",
   "keywords": [
     "converter",
     "ico"
@@ -48,7 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fiahfy/ico-convert.git"
+    "url": "git+https://github.com/igor-arkhipov/ico-convert.git"
   },
   "scripts": {
     "build": "tsc",

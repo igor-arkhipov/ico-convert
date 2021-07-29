@@ -1,20 +1,20 @@
 # ico-convert
 
-![badge](https://github.com/fiahfy/ico-convert/workflows/Node.js%20Package/badge.svg)
+![badge](https://github.com/igor-arkhipov/ico-convert/workflows/Node.js%20Package/badge.svg)
 
 > Convert Image to [ICO file format](<https://en.wikipedia.org/wiki/ICO_(file_format)>).
 
 ## Installation
 
 ```bash
-npm install @fiahfy/ico-convert
+npm install @igor-arkhipov/ico-convert
 ```
 
 ## Usage
 
 ```js
 import fs from 'fs'
-import { convert } from '@fiahfy/ico-convert'
+import { convert } from '@igor-arkhipov/ico-convert'
 
 const buf = fs.readFileSync('input.png') // image must be squre, 256x256 pixels or larger
 convert(buf).then((data) => {
@@ -42,12 +42,12 @@ convert(bufs).then((data) => {
 ## CLI
 
 ```bash
-npm install -g @fiahfy/ico-convert
+npm install -g @igor-arkhipov/ico-convert
 ico-convert icon.png
 ```
 
 or use via npx
 
 ```bash
-npx @fiahfy/ico-convert icon.png
+npx @igor-arkhipov/ico-convert icon.png
 ```
