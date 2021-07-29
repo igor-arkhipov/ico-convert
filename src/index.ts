@@ -1,5 +1,5 @@
 import sharp from 'sharp'
-import { Ico, IcoImage } from '@fiahfy/ico'
+import { Ico, IcoImage } from '@igor-arkhipov/ico'
 
 const convertFromBuffer = async (buffer: Buffer): Promise<Buffer> => {
   const image = sharp(buffer)
