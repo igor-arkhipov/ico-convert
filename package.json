@@ -1,7 +1,7 @@
 {
   "name": "@igor-arkhipov/ico-convert",
   "description": "Convert Image to ICO file format (fork)",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": {
     "name": "igor-arkhipov",
     "url": "https://igor-arkhipov.github.io/"
